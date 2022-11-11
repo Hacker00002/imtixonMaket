@@ -157,6 +157,7 @@ span{
         position: static;
         display: flex;
         flex-direction: column;
+        margin-bottom: 0;
     }
     .button1{
         position: static;
@@ -167,9 +168,6 @@ span{
         font-weight: 400;
         font-size: 32px;
         line-height: 36px;
-    }
-    input{
-        margin-bottom: 16px;
     }
 }
 
