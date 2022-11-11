@@ -1,0 +1,93 @@
+.hero{
+    background-image: url(../img/hero4.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    background-position: calc(50% + 795px) calc(50% + 160px);
+}
+// all
+.all5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 146px;
+}
+// h2
+.text-phone__two h2{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
+    margin-bottom: 25px;
+}
+// p
+.text-phone__two p{
+    font-family: 'Public-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C8294;
+    width: 445px;
+}
+// responsive
+@media only screen and (max-width:1275px){
+    .phone2{
+        width: 600px;
+    }
+    .text-phone__two p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1445px){
+    .hero{
+        background-position: calc(50% + 695px) calc(50% + 160px);
+    }
+}
+
+@media only screen and (max-width:1095px){
+    .hero{
+        background-position: calc(50% + 650px) calc(50% + 160px);
+    }
+}
+
+@media only screen and (max-width:965px){
+    .hero{
+        background-position: calc(50% + 600px) calc(50% + 160px);
+    }
+}
+
+@media only screen and (max-width:885px){
+    .text-phone__two h2{
+        font-size: 38px;
+    }
+    .phone2{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:795px){
+    .all5{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .text-phone__two h2{
+        text-align: center;
+    }
+    .text-phone__two p{
+        text-align: center;
+    }
+    .hero{
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width:525px){
+    .phone2{
+        width: 100%;
+    }
+}

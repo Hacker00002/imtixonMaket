@@ -1,0 +1,133 @@
+// all
+.all3{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+// bg
+.company{
+    background-image: url(../img/hero2.svg);
+    background-color: #1B262F;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    // padding-left: 165px;
+    margin-bottom: 150px;
+}
+// text
+.text__company h3{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #FBFCFE;
+    margin-bottom: 25px;
+}
+// p
+.text__company p{
+    font-family: 'Public-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-bottom: 32px;
+    width: 445px;
+}
+// button
+.button3{
+    border: 1px solid #fff;
+    background-color: #1B262F;
+}
+// hover
+.button3:hover{
+    background-color: #fff;
+    color: #1B262F;
+}
+// car
+.car__all{
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+// tesla-1
+.tesla1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+// tesla-2
+.tesla2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+// tesla-3
+.tesla3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+// responsive
+@media only screen and (max-width:1145px){
+    .car__all{
+        gap: 55px;
+    }
+}
+
+@media only screen and (max-width:1115px){
+    .car__all{
+        gap: 45px;
+    }
+    .text__company p{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1025px){
+    .text__company h3{
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width:915px){
+    .all3{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .text__company h3{
+        text-align: center;
+    }
+    .text__company p{
+        text-align: center;
+    }
+    .button__tesla{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:545px){
+    .car__all{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tesla3{
+        flex-direction: row;
+    }
+    .button3{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .car__all{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

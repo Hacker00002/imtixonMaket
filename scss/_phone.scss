@@ -1,0 +1,197 @@
+// all2
+.all2{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 155px;
+}
+// img
+.iphone{
+    width: 500px;
+}
+// h1
+.text h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.553846px;
+    color: #36536B;
+    width: 546px;
+    margin-bottom: 21px;
+}
+// form
+input{
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 27px;
+    padding-right: 250px;
+    font-family: 'Public-Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+// focus
+input:focus{
+    border: none;
+    outline: none;
+}
+// hover
+input:hover{
+    opacity: 1;
+}
+// button
+.button1{
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    margin-left: 350px;
+    z-index: 1;
+}
+// form
+form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+// span
+span{
+    color: #6C8294;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+// responsive
+@media only screen and (max-width:1265px){
+    .all2{
+        gap: 70px;
+    }
+}
+
+@media only screen and (max-width:1135px){
+    .all2{
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width:1135px){
+    .all2{
+        gap: 0px;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width:1085px){
+    .all2{
+        justify-content: center;
+    }
+    .iphone{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:1015px){
+    .all2{
+        justify-content: center;
+    }
+    .iphone{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:965px){
+    .iphone{
+        width: 390px;
+    }
+    .text h1{
+        font-size: 60px;
+        width: 100%;
+    }
+    input{
+        padding-right: 160px;
+    }
+    .button1{
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width:845px){
+    .text h1{
+        font-size: 51px;
+    }
+}
+
+@media only screen and (max-width:785px){
+    .all2{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .text h1{
+        text-align: center;
+    }
+    form{
+        justify-content: center;
+    }
+    .input p{
+        text-align: center;
+    }
+    input{
+        padding-right: 200px;
+    }
+    .button1{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:435px){
+    form{
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+    .button1{
+        position: static;
+        width: 100%;
+        margin-left: 0;
+    }
+    .text h1{
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    input{
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (max-width:415px){
+    .iphone{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:335px){
+    .iphone{
+        width: 100%;
+    }
+    input{
+        width: 100%;
+        padding-right: 0;
+    }
+    .text__company h3{
+        font-size: 28px !important;
+    }
+}

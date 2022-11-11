@@ -1,0 +1,42 @@
+// all
+.all6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+// cards-1
+.cards-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+// img
+.svg{
+    margin-bottom: 32px;
+}
+// h4
+.cards-1 h4{
+    font-family: 'Public-Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.138462px;
+    color: #36536B;
+    margin-bottom: 16px;
+}
+// p
+.cards-1 p{
+    font-family: 'Public-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #6C8294;
+    width: 300px;
+}
